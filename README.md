@@ -84,6 +84,7 @@ python pipeline/08_baselines_neural.py   # CORAL, CORN, MiniLM variant; uses the
 ```bash
 python pipeline/09_final_tables.py       # summary.csv, confusion and per-class tables, paired differences
 python pipeline/10_progression_figure.py # QWK progression figure (revision/figures_final/)
+python pipeline/03_figures.py            # confusion matrix and fairness/wait-time figures (needs outputs/ of the bias and wait-time scripts)
 ```
 
 `R/compute_shap.R`, `R/bias_analysis.R` and `R/wait_time_analysis.R` hold the earlier SHAP, bias and wait-time analyses. `R/experiments.R` and `pipeline/04_retrain.py` are the earlier whole-pipeline scripts; they also fit an all-features reference (E6, with a post-hoc IV-fluids flag) that is not part of the reported results.
