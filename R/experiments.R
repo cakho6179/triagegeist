@@ -1,3 +1,6 @@
+# Note: the E6 block below (all 744 columns, including the post-hoc IV-fluids flag) is an upper-bound
+# reference from the original runs. It is not part of the reported results; the ablation reported in the paper
+# is R/final_ablation_E4.R (reference model E4).
 suppressMessages({
   library(data.table)
   library(xgboost)

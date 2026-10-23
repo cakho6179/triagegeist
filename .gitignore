@@ -10,3 +10,4 @@ __pycache__/
 .Rhistory
 .RData
 .DS_Store
+revision/

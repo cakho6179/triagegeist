@@ -12,6 +12,10 @@ xgboost>=2.0.0
 lightgbm>=4.0.0
 catboost>=1.2.0
 
+# Neural baselines and sentence embeddings (pipeline/08; the MiniLM weights are downloaded from Hugging Face on first use)
+torch>=2.1.0
+sentence-transformers>=2.7.0
+
 # Visualization
 matplotlib>=3.7.0
 seaborn>=0.12.0

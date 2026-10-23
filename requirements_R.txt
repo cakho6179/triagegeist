@@ -9,6 +9,8 @@ jsonlite
 # Modeling
 xgboost >= 1.7.0
 randomForest
+ranger
+rpart
 lightgbm
 
 # Interpretability
