@@ -1,0 +1,12 @@
+# data and generated outputs are not stored in this repository
+data/
+outputs/
+*.rds
+*.parquet
+*.npz
+__pycache__/
+*.pyc
+.Rproj.user/
+.Rhistory
+.RData
+.DS_Store

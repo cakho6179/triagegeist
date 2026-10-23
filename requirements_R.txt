@@ -1,0 +1,42 @@
+# R dependencies for the primary pipeline
+# Tested with R 4.6.0
+
+# Core data
+data.table >= 1.14.0
+readr
+jsonlite
+
+# Modeling
+xgboost >= 1.7.0
+randomForest
+lightgbm
+
+# Interpretability
+DALEX
+kernelshap
+shapper
+iml
+
+# Statistics
+corrplot
+psych
+
+# Visualization
+ggplot2 >= 3.3.0
+scales
+RColorBrewer
+gridExtra
+ggridges
+patchwork
+viridis
+
+# Reporting
+rmarkdown
+knitr
+kableExtra
+bookdown
+
+# Utilities
+zoo
+lubridate
+stringi
