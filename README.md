@@ -24,6 +24,8 @@ Random 80/20 split of 58,124 visits (46,499 train, 11,625 test). The split comes
 | Random Forest (500 trees) | 640 | 0.4250 (0.4094–0.4407) | 0.6096 | 0.9615 | 0.4317 |
 | CART (depth 6) | 640 | 0.3418 (0.3257–0.3583) | 0.5702 | 0.9517 | 0.4809 |
 
+Accuracy, within ±1 and MAE in this table are under the QWK thresholds (or the native decoding of the classifier). Table III of the paper gives accuracy of the rounded score for the ordinal XGBoost rows (for example E4 61.6%) and E1 to E3 56.2%, 56.1% and 58.2%, so the two accuracy columns differ by design.
+
 Temporal proxy (train 2018–2020, test 2021–2022): QWK 0.5122.
 
 Notes for reading the table:
