@@ -11,3 +11,36 @@ __pycache__/
 .RData
 .DS_Store
 revision/
+
+# generated or intermediate data
+*.npy
+*.pkl
+*.RDS
+*.csv.gz
+
+# local-only folders and notes (not part of the released code)
+final/
+temp/
+00_BAN_CHUAN.md
+R/reports/
+src/R/
+src/python/
+src/README.md
+pipeline/README.md
+triagegeist.Rproj
+R/check_rmd_env.R
+R/generate_submission.R
+R/run_full.R
+R/test_render.R
+
+# Office files and build artifacts (the camera-ready PDF in paper/ is kept)
+*.doc
+*.docx
+*.pptx
+node_modules/
+.Rproj.user/
+.venv/
+venv/
+.env
+*.log
+Thumbs.db
