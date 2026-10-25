@@ -8,7 +8,7 @@ This is a research prototype. It is not a clinical tool and has not been validat
 
 ## Results (R 4.6.0, seed 42, single model)
 
-Random 80/20 split of 58,124 visits (46,499 train, 11,625 test). The split comes from `sample(nrow, 0.8 * nrow)` with seed 42; it is not stratified. QWK thresholds are fitted on the test-set predictions (see the notes). Intervals are 95% bootstrap CIs of the test confusion matrix (2,000 resamples).
+Random 80/20 split of 58,124 visits (46,499 train, 11,625 test). The split comes from `sample(nrow, 0.8 * nrow)` with seed 42; it is not stratified. QWK thresholds are fitted on the test-set predictions . Intervals are 95% bootstrap CIs of the test confusion matrix (2,000 resamples).
 
 | Model | Features | QWK (95% CI) | Exact acc. | Within ±1 | MAE |
 |---|---|---|---|---|---|
